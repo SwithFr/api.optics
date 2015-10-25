@@ -7,7 +7,7 @@
 
 var jsonMiddlewares = require( "../../core/express/middlewares.js" ).json;
 
-// [POST] - /users/register
+// [POST] - /user/register
 module.exports = function( oRequest, oResponse ) {
 
     // TODO: check if empty params
